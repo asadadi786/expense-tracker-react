@@ -48,5 +48,5 @@ jobs:
     
     #deploying an surge 
     - name: Surge 
-      run: surge ./build http://bootcamp-expense-tracker.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
+      run: surge ./build http://bootcamp2020-expense-tracker-app-.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
  
